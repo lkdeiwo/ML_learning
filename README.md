@@ -7,3 +7,4 @@
 fine-tune pretrained VGG16模型用于CIFAR10数据集。  
 ## credit  
 Aladdin Persson https://www.youtube.com/channel/UCkzW5JSFwvKRjXABI-UTAkQ  
+Hung-yi Lee https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ
