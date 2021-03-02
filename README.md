@@ -1,8 +1,14 @@
 # AI实践  
-## 实现U-NET模型用于图像分割  
-实现U-NET模型，并在google colab上用Kaggle的carvana-image-masking-challenge数据集进行训练。在3个epoch后得到：  
+## U-Net图像分割  
+实现U-Net模型，并在google colab上用Kaggle的carvana-image-masking-challenge数据集进行训练。在3个epoch后得到： 
 
-## 实现DCGAN, WGAN，WGAN-GP模型  
+target:  
+<img src="U-NET/results/0.png" width = "800"  alt="图片名称" align=center />    
+
+predicted results:  
+<img src="U-NET/results/pred_0.png" width = "800"  alt="图片名称" align=center />  
+
+## DCGAN, WGAN，WGAN-GP模型  
 实现DCGAN模型，并在google colab上用celebA数据集训练。在5个epoch后得到：  
 <img src="DCGAN/DCGAN_fakeImage.JPG" width = "300" height = "200" alt="图片名称" align=center />  
 
