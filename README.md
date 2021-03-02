@@ -6,9 +6,13 @@ target:
 predicted results:  
 <img src="U-NET/results/pred_0.png" width = "800"  alt="图片名称" align=center />  
 
-## DCGAN, WGAN，WGAN-GP模型  
+## DCGAN, WGAN, WGAN-GP 
 实现DCGAN模型，并在google colab上用celebA数据集训练。在5个epoch后得到：  
-<img src="DCGAN/DCGAN_fakeImage.JPG" width = "300" height = "200" alt="图片名称" align=center />  
+<img src="DCGAN/DCGAN_fakeImage.JPG" width = "400" alt="图片名称" align=center />  
+实现WGAN模型，并在google colab上用MNIST数据集训练。在5个epoch后得到：  
+<img src="WGAN/WGAN_results.PNG" width = "400" alt="图片名称" align=center />  
+实现WGAN-GP模型，并在google colab上用MNIST数据集训练。在5个epoch后得到：  
+<img src="WGAN-GP/WGAN-GP_fake.PNG" width = "400" alt="图片名称" align=center />  
 
 ## 实现RNN, seq2seq模型  
 ## transfer learning and fine-tuning  
