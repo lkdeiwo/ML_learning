@@ -66,11 +66,12 @@ for epoch in range(NUM_EPOCHS):
             fake = gen(noise)
             critic_real = critic(real).reshape(-1)
             critic_fake = critic(fake).reshape(-1)
+            ### train Discriminator: max E[critic(real)]-E[critic(gen_fake)]
             loss_critic = -(torch.mean(critic_real) - torch.mean(critic_fake))
             critic.zero_grad()
             loss_critic.backward(retain_graph=True)
             opt_critic.step()
-
+            ### discriminator needs to be 1-Lipshitz
             for p in critic.parameters():
                 p.data.clamp_(-WEIGHT_CLIP, WEIGHT_CLIP)
 
