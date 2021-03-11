@@ -15,5 +15,5 @@ predicted results:
 
 ## credit  
 Aladdin Persson https://www.youtube.com/channel/UCkzW5JSFwvKRjXABI-UTAkQ  
-Hung-yi Lee https://youtu.be/DQNNMiAP5lw  
+Hung-yi Lee https://youtube.com/playlist?list=PLJV_el3uVTsMq6JEFPW35BCiOQTsoqwNw  
 gwylab http://www.seeprettyface.com/research_notes.html
